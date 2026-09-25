@@ -1,0 +1,62 @@
+{
+    "name": "PlayerInputActions",
+    "maps": [
+        {
+            "name": "StartMenu",
+            "id": "2b0a480e-01ce-45be-9304-e38534abfba3",
+            "actions": [
+                {
+                    "name": "Start",
+                    "type": "Button",
+                    "id": "7bfef8c9-db8c-4198-a1b3-e4d0699a1c26",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "9dcb9ddb-dcaa-49cc-acdc-0db1b85893f2",
+                    "path": "<Touchscreen>/primaryTouch/tap",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Start",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "ScoreMenu",
+            "id": "c403433a-8873-4bfa-bedd-5ba462609bf2",
+            "actions": [
+                {
+                    "name": "Retry",
+                    "type": "Button",
+                    "id": "0ff640fb-63d6-423a-9a5a-cc19cbc9e69f",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "Tap",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "4c9b708f-2122-4204-93fd-a3c15bf44ee2",
+                    "path": "<Touchscreen>/primaryTouch/tap",
+                    "interactions": "Tap",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Retry",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
