@@ -8,6 +8,7 @@ public class BallShooterController : MonoBehaviour
 
     private Rigidbody2D rgbody;
     private int activeTouches;
+    [SerializeField] private SliderJoint2D sliderJoint;
 
     public GameObject door;
 
@@ -39,6 +40,13 @@ public class BallShooterController : MonoBehaviour
         {
             rgbody.AddForce(Vector2.down * 10000f);
         }
+
+        if (Keyboard.current.spaceKey.isPressed)
+        {
+            rgbody.AddForce(Vector2.down * 10000f);
+        }
+
+        Debug.Log(sliderJoint.jointTranslation);
     }
 
 }

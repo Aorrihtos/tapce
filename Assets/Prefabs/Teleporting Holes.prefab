@@ -62,9 +62,9 @@ Transform:
   m_GameObject: {fileID: 6044383642664967918}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 1.46, y: 2.12, z: -0.023704087}
-  m_LocalScale: {x: 0.93000007, y: 0.93000007, z: 1.3688549}
-  m_ConstrainProportionsScale: 1
+  m_LocalPosition: {x: -0.69404984, y: -0.88610005, z: -0.023704087}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1097020172986607689}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -109,12 +109,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -341333742, guid: 3ff6ee39231307b4b873393661b663af, type: 3}
+  m_Sprite: {fileID: -883265333, guid: 69f6d3c5177e3b841a16b39d1e53bf46, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.81, y: 0.78}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -219,9 +219,9 @@ Transform:
   m_GameObject: {fileID: 8915826723725751056}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.84, y: 3.1, z: -0.023704087}
-  m_LocalScale: {x: 0.95, y: 0.95, z: 1.3982925}
-  m_ConstrainProportionsScale: 1
+  m_LocalPosition: {x: 0.30594993, y: -0.8860998, z: -0.023704087}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1097020172986607689}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -266,12 +266,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -341333742, guid: 3ff6ee39231307b4b873393661b663af, type: 3}
+  m_Sprite: {fileID: -883265333, guid: 69f6d3c5177e3b841a16b39d1e53bf46, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.81, y: 0.78}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1

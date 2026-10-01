@@ -20,6 +20,6 @@ public class ConfirmPlayerID : MonoBehaviour
         PlayerPrefs.SetString("playerID", currentID);
 
         // Start the game
-        SceneManager.LoadScene("GameScene");
+        SceneManager.LoadScene("TestScene");
     }
 }

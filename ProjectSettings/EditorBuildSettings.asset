@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ScoreScene.unity
     guid: 380c0bf79c9bd3045865a46590259620
+  - enabled: 1
+    path: Assets/Scenes/TestScene.unity
+    guid: dd3292ac4ac3a7844a6b621e27fc0b05
   m_configObjects:
     com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000, guid: 1eca775339e99e340a2a9a95039599af, type: 2}
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 79ad9c90d68d99843bedb24acd35f904, type: 2}
