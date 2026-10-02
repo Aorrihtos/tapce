@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 03ba528fd853ecc4da99a3b7b23320bb
+guid: 7949a21d498386d46a5f726f081416aa
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,13 +123,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ball shooter-Sheet_0
+      name: falling_area_tilemap_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 20
+        y: 300
         width: 100
-        height: 140
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,41 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bca4561080b7750448f1f6230147744a
-      internalID: 1090188291
+      spriteID: c3a1e2b94e858b54c85a9a85ba4384ee
+      internalID: 713089247
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ball shooter-Sheet_1
+      name: falling_area_tilemap_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7000976b945d0be409bd23281f53baeb
+      internalID: 1503276099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: falling_area_tilemap_2
       rect:
         serializedVersion: 2
         x: 100
-        y: 20
+        y: 200
         width: 100
-        height: 140
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e9ff6e93fd18fe4380eb711423c0f9d
-      internalID: 815780639
+      spriteID: 69a2b2e0c4e714e48b623fd87652213d
+      internalID: -1939375219
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ball shooter-Sheet_2
+      name: falling_area_tilemap_3
       rect:
         serializedVersion: 2
         x: 200
-        y: 20
+        y: 200
         width: 100
-        height: 140
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +200,83 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 188ffc734ac900c40a5ad15db0112eff
-      internalID: 1313190586
+      spriteID: a5d58620e905b044888e124068df2d74
+      internalID: -712083326
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ball shooter-Sheet_3
+      name: falling_area_tilemap_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4cf460ec0fe71644a415486deba5a14
+      internalID: 881190486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: falling_area_tilemap_5
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e02b262332b381b47ae966debfb6df22
+      internalID: -2024337211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: falling_area_tilemap_6
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 100
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90b8c0ea063337049a4acbea897c5978
+      internalID: -474221376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: falling_area_tilemap_7
       rect:
         serializedVersion: 2
         x: 300
-        y: 20
+        y: 100
         width: 100
-        height: 140
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +284,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7e07b498039b4f84c8932eebb710b14f
-      internalID: -1378601636
+      spriteID: 2763b5bb72fd9d3459cf348b2f168ef6
+      internalID: 2071894686
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ball shooter-Sheet_4
+      name: falling_area_tilemap_8
       rect:
         serializedVersion: 2
         x: 400
-        y: 20
+        y: 100
         width: 100
-        height: 140
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,20 +305,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6fd308472c9eca246a83bb7d2acb3e6a
-      internalID: -1230591104
+      spriteID: 8c9926cd87a31bd4682ad6d374cb4b50
+      internalID: -469963815
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ball shooter-Sheet_5
+      name: falling_area_tilemap_9
       rect:
         serializedVersion: 2
-        x: 500
-        y: 20
+        x: 0
+        y: 0
         width: 100
-        height: 140
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,20 +326,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a22dc483a90cd9f4b87cd82c8d7be872
-      internalID: 1961026031
+      spriteID: b976762530ff89140821c8d1f083e2b9
+      internalID: 652557363
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ball shooter-Sheet_6
+      name: falling_area_tilemap_10
       rect:
         serializedVersion: 2
-        x: 600
-        y: 20
+        x: 100
+        y: 0
         width: 100
-        height: 140
+        height: 100
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,8 +347,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82c66b74c6b634244b98ca4af3b51525
-      internalID: -1853641185
+      spriteID: ff5493bbab8692846b8a4f2123182f82
+      internalID: -860026219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: falling_area_tilemap_11
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f392067deec5664ab574ad26e275f41
+      internalID: -314681544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: falling_area_tilemap_12
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb66b2b45aeff7d459c1f5ea8f4cee21
+      internalID: -1572025821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: falling_area_tilemap_13
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 100
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3a734adecb2aa46a1f4f4b1279348a
+      internalID: 1646655232
       vertices: []
       indices: 
       edges: []
@@ -280,13 +427,20 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Ball shooter-Sheet_0: 1090188291
-      Ball shooter-Sheet_1: 815780639
-      Ball shooter-Sheet_2: 1313190586
-      Ball shooter-Sheet_3: -1378601636
-      Ball shooter-Sheet_4: -1230591104
-      Ball shooter-Sheet_5: 1961026031
-      Ball shooter-Sheet_6: -1853641185
+      falling_area_tilemap_0: 713089247
+      falling_area_tilemap_1: 1503276099
+      falling_area_tilemap_10: -860026219
+      falling_area_tilemap_11: -314681544
+      falling_area_tilemap_12: -1572025821
+      falling_area_tilemap_13: 1646655232
+      falling_area_tilemap_2: -1939375219
+      falling_area_tilemap_3: -712083326
+      falling_area_tilemap_4: 881190486
+      falling_area_tilemap_5: -2024337211
+      falling_area_tilemap_6: -474221376
+      falling_area_tilemap_7: 2071894686
+      falling_area_tilemap_8: -469963815
+      falling_area_tilemap_9: 652557363
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.EnhancedTouch;
 using Touch = UnityEngine.InputSystem.EnhancedTouch.Touch;
 
@@ -26,6 +27,16 @@ public class SpinnerController : MonoBehaviour
         // Enable Enhanced Touch system
         EnhancedTouchSupport.Enable();
         Touch.onFingerDown += OnTouch;
+    }
+
+    void Update()
+    {
+        if (Keyboard.current != null &&
+            Keyboard.current.spaceKey.wasPressedThisFrame &&
+            joint.enabled)
+        {
+            Unstick();
+        }
     }
 
 

@@ -32,6 +32,9 @@ public class DeadZonaController : MonoBehaviour
         if (collider.CompareTag("Player") && _lifesTransform != null)
         {
             float newScaleX = _lifesTransform.rect.width - _lifeImgWidthPerUnit;
+
+            Debug.Log("New scale = " + newScaleX);
+
             if (newScaleX <= 0)
             {
                 // Save the current score, reset points and load the next scene

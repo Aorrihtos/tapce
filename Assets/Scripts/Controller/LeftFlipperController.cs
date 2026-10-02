@@ -1,6 +1,6 @@
 using System.Linq;
 using UnityEngine;
-
+using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.EnhancedTouch;
 using Touch = UnityEngine.InputSystem.EnhancedTouch.Touch;
 
@@ -35,8 +35,11 @@ public class LeftFlipperController : MonoBehaviour
     {
         // Get active touches
         var activeTouches = Touch.activeTouches;
-        var detectedTouchList = activeTouches.Where(t => t.screenPosition.x < Screen.width / 2).ToList();
-        applyForce = detectedTouchList.Count > 0;
+        var detectedTouch = activeTouches.Any(t => t.screenPosition.x < Screen.width / 2);
+
+        bool leftArrowPressed = Keyboard.current != null && Keyboard.current.leftArrowKey.isPressed;
+        
+        applyForce = detectedTouch || leftArrowPressed;
     }
 
     void FixedUpdate()

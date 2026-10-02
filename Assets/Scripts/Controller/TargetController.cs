@@ -30,6 +30,11 @@ public class TargetController : MonoBehaviour
         _targetPosition = _waypoint1; // Start moving to waypoint 1
     }
 
+    private void Start()
+    {
+        Flip();
+    }
+
     // Update is called once per frame
     void FixedUpdate()
     {
@@ -47,7 +52,18 @@ public class TargetController : MonoBehaviour
             // Switch target to the other waypoint
             _movingToWaypoint1 = !_movingToWaypoint1;
             _targetPosition = _movingToWaypoint1 ? _waypoint1 : _waypoint2;
+
+            Flip();
         }
+    }
+
+    private void Flip()
+    {
+        transform.localScale = new Vector3(
+            -transform.localScale.x,
+            transform.localScale.y,
+            transform.localScale.z
+        );
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
